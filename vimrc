@@ -28,7 +28,7 @@ set hidden
 
 "Set the color scheme.
 if !has("win32unix")
-    colorscheme solarized
+    " colorscheme solarized
     set background=dark
     "Change invisible characters
     set listchars=tab:➞\ ,eol:↵
