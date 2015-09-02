@@ -28,7 +28,7 @@ set hidden
 
 "Set the color scheme.
 if !has("win32unix")
-    " colorscheme solarized
+    colorscheme solarized
     set background=dark
     "Change invisible characters
     set listchars=tab:➞\ ,eol:↵
@@ -175,7 +175,7 @@ if has("autocmd")
     " Vim to see the changes.
     augroup myvimrchooks
         autocmd!
-        autocmd bufwritepost .vimrc source $MYVIMRC
+        autocmd bufwritepost .vimrc source $MYVIMRC | AirlineRefresh
         autocmd filetype vim setlocal foldmethod=marker foldcolumn=4
     augroup END
 endif
