@@ -46,3 +46,15 @@
 [submodule "bundle/delimitmate"]
 	path = bundle/delimitmate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule "bundle/gitgutter"]
+	path = bundle/gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "bundle/vim-fish"]
+	path = bundle/vim-fish
+	url = git@github.com:dag/vim-fish.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = git@github.com:digitaltoad/vim-jade.git
+[submodule "bundle/vim-wakatime"]
+	path = bundle/vim-wakatime
+	url = git://github.com/wakatime/vim-wakatime.git

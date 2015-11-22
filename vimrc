@@ -11,6 +11,8 @@ filetype plugin indent on
 set spelllang=en_us
 syntax on
 
+"Sane settings for backspace
+set backspace=indent,eol,start
 
 "Display current cursor position in lower right corner.
 set ruler
@@ -94,7 +96,7 @@ endif
 " Edit Ultisnips
 nnoremap <leader>es :UltiSnipsEdit<cr>
 " CtrlP
-set wildignore+=*.class,*/.git/*,*/.hg/*,*/.svn/*
+set wildignore+=*.class,*/.git/*,*/.hg/*,*/.svn/*,*/__pycache__/*
 let g:ctrlp_custom_ignore = {
             \ 'dir':  '\v[\/]\.(git|hg|svn)$',
             \ 'file': '\v\.(exe|so|dll|swp|class)$',
