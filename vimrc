@@ -43,7 +43,7 @@ set scrolloff=5
 set guifont=Monaco:h12
 
 "Tab stuff;
-set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 
 "Show lines numbers
 set number
@@ -98,7 +98,7 @@ nnoremap <leader>es :UltiSnipsEdit<cr>
 " CtrlP
 set wildignore+=*.class,*/.git/*,*/.hg/*,*/.svn/*,*/__pycache__/*
 let g:ctrlp_custom_ignore = {
-            \ 'dir':  '\v[\/](\.git|\.hg|\.svn|node_modules)$',
+            \ 'dir':  '\v[\/](\.git|\.hg|\.svn|vendor|node_modules)$',
             \ 'file': '\v\.(exe|so|dll|swp|class)$',
             \ 'link': 'some_bad_symbolic_links',
             \ }
